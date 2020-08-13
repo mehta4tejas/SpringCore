@@ -11,5 +11,8 @@ public class App
 		BeanFactory beanFactory = new XmlBeanFactory(new FileSystemResource("spring.xml"));
         Circle circle = (Circle) beanFactory.getBean("circle1");
         circle.display();
+        
+        Circle circle1 = (Circle) beanFactory.getBean("circle2");
+        circle1.display();
 	}
 }
