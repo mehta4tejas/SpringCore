@@ -8,3 +8,4 @@
 		<property name="message" value="value inject by property"></property>
 	</bean>
 </beans>
+</beans>
