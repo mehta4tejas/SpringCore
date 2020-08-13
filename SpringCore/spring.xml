@@ -3,4 +3,8 @@
 
 <beans>
 	<bean id="circle" class="org.tejas.SpringCore.First.Circle" />
+	
+	<bean id="circle1" class="org.tejas.SpringCore.Second.Circle" >
+		<property name="message" value="value inject by property"></property>
+	</bean>
 </beans>
