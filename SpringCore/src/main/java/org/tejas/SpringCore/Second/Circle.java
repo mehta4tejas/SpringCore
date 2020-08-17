@@ -4,6 +4,14 @@ public class Circle
 {
 	private String message;
 
+	public Circle() {
+		
+	}
+	
+	public Circle(String message) {
+		this.message = message;
+	}
+	
 	public String getMessage() {
 		return message;
 	}
