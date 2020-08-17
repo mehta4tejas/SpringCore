@@ -14,5 +14,6 @@ public class App
         
         Circle circle1 = (Circle) beanFactory.getBean("circle2");
         circle1.display();
+        
 	}
 }

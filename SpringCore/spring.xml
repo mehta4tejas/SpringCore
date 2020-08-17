@@ -3,11 +3,13 @@
 
 <beans>
 	<bean id="circle" class="org.tejas.SpringCore.First.Circle" />
-	
+
+	<!-- value inject by property -->
 	<bean id="circle1" class="org.tejas.SpringCore.Second.Circle" >
 		<property name="message" value="value inject by property"></property>
 	</bean>
-	
+
+	<!-- value inject by constructor -->
 	<bean id="circle2" class="org.tejas.SpringCore.Second.Circle" >
 		<constructor-arg value="value inject by constructor" />
 	</bean>

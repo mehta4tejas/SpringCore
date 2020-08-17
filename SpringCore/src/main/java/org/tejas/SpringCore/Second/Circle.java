@@ -5,7 +5,7 @@ public class Circle
 	private String message;
 
 	public Circle() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	public Circle(String message) {
